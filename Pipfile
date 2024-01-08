@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[scripts]
+start = "python manage.py runserver"
+
+[packages]
+django = "*"
+pillow = "*"
+celery = "*"
+redis = "*"
+flower = "*"
+django-celery-results = "*"
+django-redis = "*"
+requests = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
+python_full_version = "3.12.1"
