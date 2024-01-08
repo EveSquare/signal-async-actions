@@ -2,6 +2,8 @@
 
 This sample uses Celery to retrieve blog thumbnail images from an external source asynchronously after the blog is created.
 
+![](https://raw.githubusercontent.com/EveSquare/signal-async-actions/main/admin_screenshot.png)
+
 *redis
 `redis-server`
 
